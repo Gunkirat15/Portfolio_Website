@@ -24,4 +24,24 @@ Welcome to my personal portfolio website. This website showcases my skills, proj
 - **Frontend**: React, JavaScript (ES6+), HTML5, CSS3, TailwindCSS
 - **Routing**: React Router DOM
 - **Icons and Images**: SVG, FontAwesome
-- **Deployment**:  
+- **Deployment**:
+
+## Installation
+
+Follow the steps below to get the project running locally on your machine.
+
+1. **Clone the Repository**:
+   git clone https://github.com/Gunkirat15/Portfolio_Website.git
+2.   ### Navigate to the Project Directory:
+   cd portfolio
+  ### Install Dependencies:
+3.    Ensure you have Node.js installed, then run:
+
+      bash
+      Copy code
+      npm install
+  Start the Development Server:
+    After the dependencies are installed, start the local development server:
+      bash
+      Copy code
+      npm run dev
