@@ -10,7 +10,6 @@ Welcome to my personal portfolio website. This website showcases my skills, proj
 - [Folder Structure](#folder-structure)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
-- [License](#license)
 
 ## Features
 - **Responsive Design**: Optimized for both desktop and mobile devices.
@@ -32,11 +31,10 @@ Follow the steps below to get the project running locally on your machine.
 
 1. **Clone the Repository**:
    git clone https://github.com/Gunkirat15/Portfolio_Website.git
-2.   ### Navigate to the Project Directory:
+2.   **Navigate to the Project Directory:**
    cd portfolio
-  ### Install Dependencies:
-3.    Ensure you have Node.js installed, then run:
-
+3.   **Install Dependencies:**
+    Ensure you have Node.js installed, then run:
       bash
       Copy code
       npm install
@@ -45,3 +43,41 @@ Follow the steps below to get the project running locally on your machine.
       bash
       Copy code
       npm run dev
+
+## Usage
+
+**Usage**
+- Navigate through the portfolio to view Projects, About Me, and Contact sections.
+- Users can fill out the Contact Form to send inquiries or reach out for collaboration.
+- The site is fully responsive and works well on mobile, tablet, and desktop devices.
+
+## Folder Structure
+
+portfolio/
+├── src/
+│   ├── assets/          # Images, logos, and other media files
+│   ├── components/      # Reusable components like Navbar, Footer, etc.
+│   ├── constants/       # Static data like navigation links
+│   ├── pages/           # Different sections or pages of the website
+│   ├── styles/          # Styling files, Tailwind CSS setup
+│   ├── main.jsx         # Entry point of the React app
+│   └── App.jsx          # Main app component
+├── public/              # Public folder for static files
+├── package.json         # Project metadata and dependencies
+├── README.md            # This README file
+└── tailwind.config.js   # Tailwind CSS configuration
+
+## Screenshots
+
+<img width="1470" alt="Screenshot 2024-10-09 at 2 51 12 AM" src="https://github.com/user-attachments/assets/0c97c3c2-1678-42e2-a897-85d5c40ce897">
+<img width="1470" alt="Screenshot 2024-10-09 at 2 51 34 AM" src="https://github.com/user-attachments/assets/ef619958-9c93-41e4-8430-eb42d78a5d24">
+<img width="1470" alt="Screenshot 2024-10-09 at 2 51 50 AM" src="https://github.com/user-attachments/assets/292cf2cb-ebdd-4c24-90b9-902c99d06b74">
+<img width="1470" alt="Screenshot 2024-10-09 at 2 52 05 AM" src="https://github.com/user-attachments/assets/62198e9b-afde-4134-93b3-fc2749db8fc2">
+
+## Contact
+
+Feel free to reach out via email or through the contact form on the website:
+
+Email: gunkirat@ualberta.ca
+LinkedIn: www.linkedin.com/in/gunkirat-singh
+
