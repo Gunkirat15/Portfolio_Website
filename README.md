@@ -53,19 +53,8 @@ Follow the steps below to get the project running locally on your machine.
 
 ## Folder Structure
 
-portfolio/
-├── src/
-│   ├── assets/          # Images, logos, and other media files
-│   ├── components/      # Reusable components like Navbar, Footer, etc.
-│   ├── constants/       # Static data like navigation links
-│   ├── pages/           # Different sections or pages of the website
-│   ├── styles/          # Styling files, Tailwind CSS setup
-│   ├── main.jsx         # Entry point of the React app
-│   └── App.jsx          # Main app component
-├── public/              # Public folder for static files
-├── package.json         # Project metadata and dependencies
-├── README.md            # This README file
-└── tailwind.config.js   # Tailwind CSS configuration
+<img width="547" alt="Screenshot 2024-10-09 at 2 54 58 AM" src="https://github.com/user-attachments/assets/21c92f6d-a19f-4bec-be23-68af01182e88">
+
 
 ## Screenshots
 
