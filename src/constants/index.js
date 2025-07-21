@@ -17,10 +17,10 @@ import {
     docker,
     su,
     city,
-    bj,
-    dragon,
+    ai,
+    sky,
     uofa,
-    two,
+    three,
     threejs,
   } from "../assets";
   
@@ -190,79 +190,79 @@ import {
   
   const projects = [
     {
-      name: "Dragonshell (UNIX Shell Implementation in C)",
+      name: "SkyByte",
       description:
-        "Implemented key built-in commands and executing external programs. Implemented advanced features including background process execution, input/output redirection, single level command piping, and signal handling for user interrupts ensuring seamless user experience.",
+        "Developed SkyByte, a professional storage management platform inspired by Google Drive and Dropbox. Implemented advanced file management, secure OTP-based authentication using shadcn, and backend integration with Appwrite. Designed global search and sorting features for improved usability and organized file categorization. Check it out here: https://skybyte-liard.vercel.app",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Three JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Shadcn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Appwrite",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: sky,
+      source_code_link: "https://github.com/Sky-Bytee/Skybyte",
+    },
+    {
+      name: "AI t-shirt Customiser",
+      description:
+        "Developed an interactive t-shirt customization platform using React (frontend) and Node.js (backend), deployed on Vercel and Render. Integrated the OpenAI API for AI-driven logo generation and photo application, boosting user engagement. Implemented dynamic features such as file uploads, color changes, and toggleable design options to provide a seamless and creative user experience. Check it out here: https://ai-tshirt.vercel.app",
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ai,
+      source_code_link: "https://github.com/Gunkirat15/AI-tshirt",
+    },
+    {
+      name: "MapReduce library",
+      description:
+        "Designed and implemented a MapReduce framework in C, utilizing thread pools for efficient job scheduling based on Shortest Job First (SJF) order. Integrated robust synchronization mechanisms using POSIX mutex locks and condition variables to manage concurrent data access. Applied the framework in a distributed word count application, optimizing the processing of large datasets across multiple threads.",
       tags: [
         {
           name: "C",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Process Management",
           color: "green-text-gradient",
         },
         {
-          name: "Signal Handling",
+          name: "Job Scheduling",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "POSIX threads",
           color: "pink-text-gradient",
         },
         {
-          name: "Pipes",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: dragon,
-      source_code_link: "https://github.com/uoa-cmput379/dragonshell-Gunkirat15",
-    },
-    {
-      name: "OOPS Blackjack",
-      description:
-        "Developed an interactive Blackjack game using Object-Oriented Programming in Python, incorporating key concepts like encapsulation, inheritance, and polymorphism. Implemented game mechanics including betting, hand management, and dealer logic, ensuring adherence to standard Blackjack rules for realistic gameplay.",
-      tags: [
-        {
-          name: "Python",
+          name: "Multi-threading",
           color: "blue-text-gradient",
         },
         {
-          name: "Object-Oriented Programming",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Encapsulation",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: bj,
-      source_code_link: "https://github.com/thebhavjotsingh/OOPS_blackjack",
-    },
-    {
-      name: "Dynamic Web page",
-      description:
-        "Developed a dynamic web page featuring smooth animations and scrolling effects using GSAP and Locomotive Scroll, enhancing user engagement. Strengthened skills in JavaScript animations, performance management, mobile responsiveness, and designing interactive user-centric interfaces.",
-      tags: [
-        {
-          name: "Javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "GSAP",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Locomotive Scroll",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
+          name: "Distributed Systems",
           color: "green-text-gradient",
         },
       ],
-      image: two,
-      source_code_link: "https://github.com/Gunkirat15/Two-Good-Co",
+      image: three,
+      source_code_link: "https://github.com/uoa-cmput379/assignment2-mapreduce-library-Gunkirat15",
     },
   ];
   

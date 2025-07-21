@@ -26,9 +26,9 @@ import city from "./company/city.png";
 import uofa from "./company/uofa.png";
 import su from "./company/su.png";
 
-import bj from "./bj.png";
-import dragon from "./dragon.png";
-import two from "./two.png";
+import ai from "./ai.png";
+import sky from "./sky.png";
+import three from "./three.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   city,
   uofa,
   su,
-  bj,
-  dragon,
-  two,
+  ai,
+  sky,
+  three,
 };
