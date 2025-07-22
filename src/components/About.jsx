@@ -36,10 +36,13 @@ const About = () => {
           <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("","",0.1,1)} 
-      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      I am a third-year Computer Science student at the University of Alberta, specializing in Software Practice and Artificial Intelligence. My academic focus and hands-on experience have equipped me with strong skills in coding, data analysis, and algorithm design, allowing me to tackle complex challenges in technology. As a teaching assistant for Computer Organization and Architecture 1, I honed my ability to explain complex topics clearly, assist students with their understanding of computer architecture, and provide support during labs and assignments. I thrive in fast-paced environments that push me to innovate and grow. I'm excited to apply my technical expertise and collaborative mindset to a software development team, where I can contribute to meaningful projects and continue building my professional skills.
-      </motion.p>
+      <motion.p
+      variants={fadeIn("", "", 0.1, 1)}
+      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+    >
+      I'm a third-year <strong className="font-semibold text-white">Computer Science</strong> student at the <strong className="font-semibold text-white">University of Alberta</strong>, specializing in <strong className="font-semibold text-white">Software Practice</strong> and <strong className="font-semibold text-white">Artificial Intelligence</strong>. My academic journey, internship at <strong className="font-semibold text-white">Zurich Canada</strong>, and hands-on projects have strengthened my skills infull-stack development, backend systems, and data-driven problem solving. As a <strong className="font-semibold text-white">Teaching Assistant</strong> for <strong className="font-semibold text-white">Computer Organization and Architecture</strong>, I’ve developed a knack for breaking down complex topics and supporting students through labs and assignments. From building interactive web apps to monitoring real-time systems with Datadog, I thrive in dynamic environments that challenge me to learn and innovate. I’m excited to bring my technical skills, creativity, and collaborative mindset to impactful software development teams.
+    </motion.p>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

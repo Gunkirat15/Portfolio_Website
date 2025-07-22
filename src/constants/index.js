@@ -20,8 +20,11 @@ import {
     ai,
     sky,
     uofa,
+    zurich,
     three,
     threejs,
+    blood,
+    whimsy,
   } from "../assets";
   
   export const navLinks = [
@@ -45,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Software Development Intern",
       icon: mobile,
     },
     {
@@ -53,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Web Developer",
+      title: "React Native Developer",
       icon: creator,
     },
   ];
@@ -115,6 +118,18 @@ import {
   
   const experiences = [
     {
+      title: "Software Development Intern",
+      company_name: "Zurich Canada",
+      icon: zurich,
+      iconBg: "#383E56",
+      date: "May 2025 - Present",
+      points: [
+        "Developed and maintained internal monitoring dashboards using Datadog to track batch job performance, email notification statuses, and log metrics across ClaimCenter systems.",
+        "Worked on backend services built with Java and React, contributing to feature development and debugging efforts within the Guidewire-based Claims platform.",
+        "Collaborated with cross-functional teams across Canada and the US, assisting with code reviews and system maintenance to ensure stability of Guidewire ClaimCenter operations.",
+      ],
+    },
+    {
       title: "Teaching Assistant",
       company_name: "University of Alberta",
       icon: uofa,
@@ -136,17 +151,6 @@ import {
         "Participating in code reviews and providing constructive feedback to other student developers.",
         "Provide hands-on tutoring in statistics and computer science, focusing on practical applications and real-world problem-solving.",
         "Utilize interactive teaching methods and practical exercises to enhance students' understanding and retention of complex concepts."
-      ],
-    },
-    {
-      title: "Event Security Guard",
-      company_name: "City of Edmonton",
-      icon: city,
-      iconBg: "#383E56",
-      date: "April 2024 - Present",
-      points: [
-        "Maintain crowd control, monitor for suspicious activities, and assist guests to ensure a secure environment during Edmonton Elks games and large concerts.",
-        "Stay vigilant and maintain a visible presence to help create a safe and enjoyable atmosphere for all attendees.",
       ],
     },
     {
@@ -190,29 +194,29 @@ import {
   
   const projects = [
     {
-      name: "SkyByte",
+      name: " PulseChain – Blood Donation Platform 💉",
       description:
-        "Developed SkyByte, a professional storage management platform inspired by Google Drive and Dropbox. Implemented advanced file management, secure OTP-based authentication using shadcn, and backend integration with Appwrite. Designed global search and sorting features for improved usability and organized file categorization. Check it out here: https://skybyte-liard.vercel.app",
+        "Created a donation management system connecting blood donors and recipients through a clean, intuitive UI and real-time push notification reminders. Integrated OpenAI to build an AI chatbot assistant that answers questions and guides users through the donation process. Developed a secure backend using PostgreSQL and Express, with cross-platform support via React and React Native for both web and mobile users.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Three JS",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "Shadcn",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
         {
-          name: "Appwrite",
+          name: "Typescript",
           color: "blue-text-gradient",
         },
       ],
-      image: sky,
-      source_code_link: "https://github.com/Sky-Bytee/Skybyte",
+      image: blood,
+      source_code_link: "https://github.com/PulseChain-org",
     },
     {
       name: "AI t-shirt Customiser",
@@ -236,33 +240,29 @@ import {
       source_code_link: "https://github.com/Gunkirat15/AI-tshirt",
     },
     {
-      name: "MapReduce library",
+      name: "Whimsy – Mood-Based Social App 📱",
       description:
-        "Designed and implemented a MapReduce framework in C, utilizing thread pools for efficient job scheduling based on Shortest Job First (SJF) order. Integrated robust synchronization mechanisms using POSIX mutex locks and condition variables to manage concurrent data access. Applied the framework in a distributed word count application, optimizing the processing of large datasets across multiple threads.",
+        "Developed a modern social media platform using Android Studio and Java, focused on emotional expression through short-form mood posts. Integrated Firebase for authentication and storage, enabling user features like follow/following, tagging, profile editing, and search. Leveraged DALL·E and OpenAI to generate images and responses based on moods using special hashtags like #generate-image and #generate-response, creating a more interactive and expressive user experience.",
       tags: [
         {
-          name: "C",
+          name: "Android Studio",
           color: "green-text-gradient",
         },
         {
-          name: "Job Scheduling",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "POSIX threads",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
         {
-          name: "Multi-threading",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Distributed Systems",
+          name: "DALL·E",
           color: "green-text-gradient",
         },
       ],
-      image: three,
-      source_code_link: "https://github.com/uoa-cmput379/assignment2-mapreduce-library-Gunkirat15",
+      image: whimsy,
+      source_code_link: "https://github.com/cmput301-w25/project-bugoff",
     },
   ];
   

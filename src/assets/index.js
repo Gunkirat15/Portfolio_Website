@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import city from "./company/city.png";
 import uofa from "./company/uofa.png";
 import su from "./company/su.png";
+import zurich from "./company/zurich_.png";
+import blood from "./blood.png";
 
 import ai from "./ai.png";
 import sky from "./sky.png";
 import three from "./three.png";
+import whimsy from "./whimsy.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   ai,
   sky,
   three,
+  zurich,
+  blood,
+  whimsy,
 };
