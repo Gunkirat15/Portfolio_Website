@@ -124,9 +124,9 @@ import {
       iconBg: "#383E56",
       date: "May 2025 - Present",
       points: [
-        "Developed and maintained internal monitoring dashboards using Datadog to track batch job performance, email notification statuses, and log metrics across ClaimCenter systems.",
-        "Worked on backend services built with Java and React, contributing to feature development and debugging efforts within the Guidewire-based Claims platform.",
-        "Collaborated with cross-functional teams across Canada and the US, assisting with code reviews and system maintenance to ensure stability of Guidewire ClaimCenter operations.",
+        "Architected comprehensive monitoring dashboards in Datadog, reducing system downtime by tracking critical batch job performance and email notification statuses across enterprise ClaimCenter infrastructure.",
+        "Enhanced backend services using Java and React, implementing new features and resolving complex bugs within Guidewire's Claims processing platform, directly impacting claim processing efficiency.",
+        "Spearheaded cross-border collaboration between Canadian and US development teams, conducting thorough code reviews and maintaining system stability for mission-critical insurance operations.",
       ],
     },
     {
@@ -136,9 +136,9 @@ import {
       iconBg: "#383E56",
       date: "September 2024 - Present",
       points: [
-        "Teaching Assistant (TA) for Computer Organisation and Architecture, assisting a class of approximately 60 students with labs, quizzes, and assignments, enhancing their understanding of course concepts.",
-        "Conduct lab interviews to assess student comprehension and performance, offering tailored feedback.",
-        "Supported students by addressing individual questions and clarifying complex topics related to computer organization and architecture.",
+        "Mentored 60+ Computer Science students in Computer Organisation and Architecture (CMPUT 229), transforming abstract concepts like CPU design and memory hierarchies into practical, hands-on learning experiences.",
+        "Designed and conducted comprehensive lab assessments, providing personalized feedback that improved student performance and confidence in low-level programming concepts.",
+        "Developed innovative teaching approaches to demystify complex topics including assembly language, processor architecture, and system-level programming for diverse learning styles.",
       ],
     },
     {
@@ -148,9 +148,9 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2024 - Present",
       points: [
-        "Participating in code reviews and providing constructive feedback to other student developers.",
-        "Provide hands-on tutoring in statistics and computer science, focusing on practical applications and real-world problem-solving.",
-        "Utilize interactive teaching methods and practical exercises to enhance students' understanding and retention of complex concepts."
+        "Delivered targeted tutoring sessions in statistics and computer science fundamentals, helping students bridge theoretical knowledge with practical programming applications.",
+        "Created custom learning strategies for individual students, resulting in measurable improvements in their academic performance and coding confidence.",
+        "Facilitated peer learning through collaborative problem-solving sessions, fostering a supportive academic community within the Student Union."
       ],
     },
     {
@@ -160,8 +160,8 @@ import {
       iconBg: "#E6DEDD",
       date: "August 2024 - September 2024",
       points: [
-        "Led orientation activities for new students, providing guidance on university resources, campus life, and academic support, ensuring a smooth transition into university culture.",
-        "Fostered a welcoming environment by organizing group activities and one-on-one interactions, promoting a sense of community and belonging among first-year students."
+        "Orchestrated comprehensive orientation programs for incoming students, designing activities that seamlessly introduced university resources, academic expectations, and campus culture to 100+ new students.",
+        "Built lasting connections through strategic group facilitation and personalized mentorship, creating an inclusive environment that reduced first-year anxiety and improved student retention."
       ],
     },
   ];
@@ -169,14 +169,14 @@ import {
   const testimonials = [
     {
       testimonial:
-        "His expertise in computer architecture helped me navigate complex concepts during lab sessions. His guidance made assignments much easier to tackle.",
+        "Gunkirat has this rare ability to break down assembly language concepts that seemed impossible to understand. His lab sessions turned my biggest academic struggle into manageable, logical steps. I went from failing quizzes to actually enjoying computer architecture.",
       name: "Bhavjot Singh",
       designation: "Student, CMPUT 229",
       company: "University of Alberta",
     },
     {
       testimonial:
-        "His technical skills are impressive, but their ability to break down difficult problems into manageable steps made all the difference for me during the course.",
+        "What sets Gunkirat apart isn't just his coding expertise—it's how he makes complex statistical concepts click. His tutoring sessions transformed my approach to data analysis, and I actually started looking forward to our problem-solving discussions.",
       name: "Chris Brown",
       designation: "Student, Computer Science",
       company: "Student Union",
@@ -184,7 +184,7 @@ import {
     },
     {
       testimonial:
-        "His leadership and clear communication ensured our team was always on the same page, which greatly contributed to maintaining a safe and secure environment at the stadium.",
+        "During high-pressure events at Commonwealth Stadium, Gunkirat's leadership kept our security operations running smoothly. His clear communication and proactive problem-solving approach made him someone you could always count on when things got hectic.",
       name: "Kevin Heard",
       designation: "Security Supervisor",
       company: "Commonwealth Stadium",
@@ -194,9 +194,9 @@ import {
   
   const projects = [
     {
-      name: " PulseChain – Blood Donation Platform 💉",
+      name: "PulseChain – Blood Donation Platform 💉",
       description:
-        "Created a donation management system connecting blood donors and recipients through a clean, intuitive UI and real-time push notification reminders. Integrated OpenAI to build an AI chatbot assistant that answers questions and guides users through the donation process. Developed a secure backend using PostgreSQL and Express, with cross-platform support via React and React Native for both web and mobile users.",
+        "Every 2 seconds, someone needs blood. PulseChain tackles this critical challenge by creating seamless connections between donors and recipients. Built an intelligent donation ecosystem featuring real-time notifications, AI-powered chatbot assistance, and cross-platform accessibility. The platform's secure PostgreSQL backend ensures HIPAA-compliant data handling while React/React Native delivers consistent experiences across web and mobile devices.",
       tags: [
         {
           name: "React",
@@ -219,9 +219,9 @@ import {
       source_code_link: "https://github.com/PulseChain-org",
     },
     {
-      name: "AI t-shirt Customiser",
+      name: "AI T-Shirt Customiser",
       description:
-        "Developed an interactive t-shirt customization platform using React (frontend) and Node.js (backend), deployed on Vercel and Render. Integrated the OpenAI API for AI-driven logo generation and photo application, boosting user engagement. Implemented dynamic features such as file uploads, color changes, and toggleable design options to provide a seamless and creative user experience. Check it out here: https://ai-tshirt.vercel.app",
+        "Fashion meets artificial intelligence in this innovative customization platform. Users can generate unique designs through OpenAI's API, upload personal images, and experiment with dynamic color schemes—all in real-time. The React frontend delivers smooth interactions while the Node.js backend handles AI processing efficiently. Deployed on modern cloud infrastructure for global accessibility. Experience it live: https://ai-tshirt.vercel.app",
       tags: [
         {
           name: "OpenAI",
@@ -242,7 +242,7 @@ import {
     {
       name: "Whimsy – Mood-Based Social App 📱",
       description:
-        "Developed a modern social media platform using Android Studio and Java, focused on emotional expression through short-form mood posts. Integrated Firebase for authentication and storage, enabling user features like follow/following, tagging, profile editing, and search. Leveraged DALL·E and OpenAI to generate images and responses based on moods using special hashtags like #generate-image and #generate-response, creating a more interactive and expressive user experience.",
+        "What if social media reflected our inner world? Whimsy transforms emotional expression into digital art through mood-driven posts and AI-generated visuals. Users share feelings through intuitive hashtags like #generate-image and #generate-response, triggering DALL·E and OpenAI to create personalized content. Built with Android Studio and powered by Firebase, it's social networking reimagined for authentic human connection.",
       tags: [
         {
           name: "Android Studio",

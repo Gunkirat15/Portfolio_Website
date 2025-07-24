@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-4 fixed top-0 z-20 bg-primary/90 backdrop-blur-md border-b border-accent/10`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -21,8 +21,8 @@ const Navbar = () => {
           }}
         >
           {/* Adjusting the width and height of the logo */}
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Gunkirat &nbsp; <span className="sm:block hidden">Singh</span></p>
+          <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
+          <p className="text-white text-[20px] font-semibold cursor-pointer flex tracking-wide">Gunkirat &nbsp; <span className="sm:block hidden text-accent">Singh</span></p>
         </Link>
         
         {/* Navigation Links */}
@@ -30,7 +30,7 @@ const Navbar = () => {
           {navLinks.map((navLink) => (
             <li
               key={navLink.id}
-              className={`text-white hover:text-secondary text-[18px] font-medium cursor-pointer`}
+              className={`text-white hover:text-accent text-[16px] font-medium cursor-pointer transition-colors duration-300 tracking-wide`}
               onClick={() => setActive(navLink.title)}
             >
               <a href={`#${navLink.id}`}>{navLink.title}</a>
