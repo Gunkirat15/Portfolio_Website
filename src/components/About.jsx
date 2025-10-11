@@ -42,9 +42,9 @@ const About = () => {
     >
       What drives me? The intersection of creativity and logic. As a third-year <strong className="font-semibold text-white">Computer Science</strong> student at the <strong className="font-semibold text-white">University of Alberta</strong>, I'm pursuing dual specializations in <strong className="font-semibold text-white">Software Practice</strong> and <strong className="font-semibold text-white">Artificial Intelligence</strong> because I believe the future belongs to those who can bridge human needs with intelligent systems.
 
-      Currently interning at <strong className="font-semibold text-white">Zurich Canada</strong>, I work with enterprise-scale monitoring systems and contribute to their Guidewire-based Claims platform. But my passion extends beyond corporate code—I build platforms that matter, like PulseChain, connecting blood donors with recipients, or Whimsy, where emotions become shareable digital experiences.
+      Currently interning at <strong className="font-semibold text-white">Zurich Canada</strong>, I work with enterprise-scale monitoring systems and contribute to their Guidewire-based Claims platform. But my passion extends beyond corporate code, I build platforms that matter, like PulseChain, connecting blood donors with recipients, or Whimsy, where emotions become shareable digital experiences.
 
-      When I'm not debugging backend services or crafting React interfaces, you'll find me mentoring students as a <strong className="font-semibold text-white">Teaching Assistant</strong> for <strong className="font-semibold text-white">Computer Organization and Architecture</strong>. There's something deeply rewarding about watching someone grasp a complex concept for the first time—it reminds me why I fell in love with programming in the first place.
+      When I'm not debugging backend services or crafting React interfaces, you'll find me mentoring students as a <strong className="font-semibold text-white">Teaching Assistant</strong> for <strong className="font-semibold text-white">Computer Organization and Architecture</strong>. There's something deeply rewarding about watching someone grasp a complex concept for the first time, it reminds me why I fell in love with programming in the first place.
     </motion.p>
 
 

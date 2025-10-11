@@ -1,27 +1,24 @@
-import { BrowserRouter } from 'react-router-dom';
-
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, HeroStarsCanvas } from './components';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import CSSStars from './components/CSSStars';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="relative">
-          <HeroStarsCanvas />
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className= "relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+    <div className="relative z-0 bg-primary">
+      <div className="relative">
+        <CSSStars />
+        <Navbar />
+        <Hero />
       </div>
-    </BrowserRouter>
+      <About />
+      <Experience />
+      <Tech />
+      <Works />
+      <Feedbacks />
+      <div className="relative z-0">
+        <Contact />
+        <StarsCanvas />
+      </div>
+    </div>
   )
 }
 

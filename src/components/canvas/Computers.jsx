@@ -21,7 +21,7 @@ const Computers = ({isMobile}) => {
       />
       <primitive
        object={computer.scene} 
-       scale = {isMobile ? [0.7, 0.7, 0.7] : [1.5, 1.5, 1.5]}
+       scale = {isMobile ? [0.6, 0.6, 0.6] : [1.2, 1.2, 1.2]}
        position = {isMobile ? [0, -3.25, -1] : [-1, -5.25, -2.75]}
        rotation = {[-0.01, -0.2, -0.1]}
       />

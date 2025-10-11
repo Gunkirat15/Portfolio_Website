@@ -124,9 +124,9 @@ import {
       iconBg: "#383E56",
       date: "May 2025 - Present",
       points: [
-        "Architected comprehensive monitoring dashboards in Datadog, reducing system downtime by tracking critical batch job performance and email notification statuses across enterprise ClaimCenter infrastructure.",
-        "Enhanced backend services using Java and React, implementing new features and resolving complex bugs within Guidewire's Claims processing platform, directly impacting claim processing efficiency.",
-        "Spearheaded cross-border collaboration between Canadian and US development teams, conducting thorough code reviews and maintaining system stability for mission-critical insurance operations.",
+        "Built and deployed over 5 Datadog dashboards and automated alerting pipelines to monitor email notifications, batch jobs, and claim integrations, reducing manual log reviews by 40% and improving issue response time by 30%.",
+        "Developed a Retrieval-Augmented Generation (RAG) system using Confluence APIs, ChromaDB, and local embeddings, allowing IT teams to query 1,000+ pages of internal documentation in seconds.",
+        "Created an AI-powered requirements analysis tool that extracts requirements from meeting transcripts, compares them with Jira and Confluence records, and automatically generates user stories and epics for direct Jira integration.",
       ],
     },
     {
@@ -176,7 +176,7 @@ import {
     },
     {
       testimonial:
-        "What sets Gunkirat apart isn't just his coding expertise—it's how he makes complex statistical concepts click. His tutoring sessions transformed my approach to data analysis, and I actually started looking forward to our problem-solving discussions.",
+        "What sets Gunkirat apart isn't just his coding expertise, it's how he makes complex statistical concepts click. His tutoring sessions transformed my approach to data analysis, and I actually started looking forward to our problem-solving discussions.",
       name: "Chris Brown",
       designation: "Student, Computer Science",
       company: "Student Union",
@@ -221,7 +221,7 @@ import {
     {
       name: "AI T-Shirt Customiser",
       description:
-        "Fashion meets artificial intelligence in this innovative customization platform. Users can generate unique designs through OpenAI's API, upload personal images, and experiment with dynamic color schemes—all in real-time. The React frontend delivers smooth interactions while the Node.js backend handles AI processing efficiently. Deployed on modern cloud infrastructure for global accessibility. Experience it live: https://ai-tshirt.vercel.app",
+        "Fashion meets artificial intelligence in this innovative customization platform. Users can generate unique designs through OpenAI's API, upload personal images, and experiment with dynamic color schemes, all in real-time. The React frontend delivers smooth interactions while the Node.js backend handles AI processing efficiently. Deployed on modern cloud infrastructure for global accessibility. Experience it live: https://ai-tshirt.vercel.app",
       tags: [
         {
           name: "OpenAI",

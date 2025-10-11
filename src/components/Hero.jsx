@@ -1,3 +1,4 @@
+import React from 'react';
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas'
@@ -15,11 +16,13 @@ const Hero = () => {
             Hi, I'm <span className="text-gradient">Gunkirat</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Third-year CS student specializing in interactive<br className="sm:block hidden" />web development and system programming.
+          Third-year CS student specializing in interactive <br className="sm:block hidden" />web development and system programming.
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <React.Suspense fallback={<div className="w-full h-full bg-transparent" />}>
+        <ComputersCanvas />
+      </React.Suspense>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
       <a href="#about">
