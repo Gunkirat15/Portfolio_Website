@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
@@ -15,6 +15,11 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
+  // Initialize EmailJS
+  useEffect(() => {
+    emailjs.init('mgK3iu5EEXZ9dIRp1');
+  }, []);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
@@ -24,9 +29,18 @@ const Contact = () => {
     e.preventDefault(); 
     setLoading(true);
     
+    console.log('Attempting to send email with:', {
+      service: 'service_lzvoeek',
+      template: 'template_fjrqf9j',
+      data: {
+        from_name: form.name,
+        from_email: form.email,
+      }
+    });
+    
     emailjs.send(
-      'service_y6fx08g', 
-      'template_77s26xz',
+      'service_lzvoeek', 
+      'template_fjrqf9j',
       {
         from_name: form.name,
         to_name: 'Gunkirat',
@@ -34,10 +48,11 @@ const Contact = () => {
         to_email: 'gunkirat@ualberta.ca',
         message: form.message,
       },
-      'TGY6FBSukG82jRVzE'
+      'mgK3iu5EEXZ9dIRp1'
     )
-    .then(() => {
+    .then((result) => {
       setLoading(false);
+      console.log('Email sent successfully:', result);
       alert("Thank you. I'll get back to you as soon as possible.");
       setForm({
         name: '',
@@ -47,8 +62,10 @@ const Contact = () => {
     })
     .catch((error) => {
       setLoading(false);
-      console.error(error);
-      alert('Something went wrong.');
+      console.error('EmailJS Error:', error);
+      console.error('Error text:', error.text);
+      console.error('Error status:', error.status);
+      alert(`Something went wrong: ${error.text || error.message || 'Unknown error'}`);
     });
   };
 
